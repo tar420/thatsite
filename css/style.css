@@ -1,0 +1,453 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0px auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #021027;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Terminus";
+  color: #e6e6e4;
+}
+
+h2 {
+  font-family: csfont;
+  color: #e6e6e4;
+}
+
+p {
+  text-align: center;
+  color: #e6e6e4;
+}
+
+label {
+  font-family: csfont;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.inp {
+  color: white;
+  background-color: #2b3b43;
+  width: 143px;
+  padding: 5px 10px;
+  height: 15px;
+  border: 0px solid #888a8b;
+  border-radius: 2px;
+  vertical-align: text-bottom;
+  font-family: "Noto Sans", Calibri, Sanserif;
+}
+
+.inptxt {
+  color: white;
+  background-color: #2b3b43;
+  width: 143px;
+  padding: 5px 10px;
+  height: 20px;
+  border: 0px solid #888a8b;
+  border-radius: 2px;
+  vertical-align: text-bottom;
+  font-family: "Noto Sans", Calibri, Sanserif;
+}
+
+.slt {
+  color: white;
+  background-color: #2b3b43;
+  width: 143px;
+  padding: 5px 10px;
+  height: 25px;
+  border: 0px solid #888a8b;
+  border-radius: 2px;
+  vertical-align: text-bottom;
+  font-family: "Noto Sans", Calibri, Sanserif;
+}
+
+.cp {
+  font-size: 15px;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  width: 60px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0) linear-gradient(#1d7751, #0e382c) repeat scroll 0% 0%;
+  border: 2px solid #25793b;
+  border-radius: 5px;
+text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+transition: all 0.1s ease-in 0s;
+  transform: scale(1);
+  cursor: pointer;
+box-shadow: 0px 0px 60px rgba(0, 117, 9, 0.5);
+  overflow: hidden;
+}
+
+.cp:hover {
+text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  transform: scale(1.15);
+}
+
+.cp:active {
+  background: rgba(255, 0, 0, 0) linear-gradient(#1f8258, #114435) repeat scroll 0% 0%;
+text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  transform: scale(1);
+box-shadow: 0px 0px 75px rgba(43, 137, 68, 0.5);
+}
+
+.cp::after {
+  content: "";
+  position: relative;
+  top: -55px;
+  left: -90px;
+  display: block;
+  width: 60px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+  transform: rotate(35deg);
+  filter: blur(20px);
+transition: none 0s ease 0s ;
+}
+
+.cp:hover::after {
+  left: 50px;
+transition: all 0.3s ease-in-out 0s;
+}
+
+.desh {
+  color: white;
+  font-size: 23px;
+}
+
+.desh > a {
+  color: black;
+  text-decoration: underline;
+}
+
+.ufc {
+  color: black;
+  font-size: 15px;
+  font-family: csfont;
+}
+
+.red {
+  color: red;
+}
+
+.gold {
+  color: #eda338;
+}
+
+.pinkish {
+  color: #9e1ead;
+}
+
+.yellow {
+  color: #ffdf93;
+}
+
+.white {
+  color: aliceblue;
+}
+
+.db {
+  color: darkblue;
+}
+
+.lb {
+  color: #68a3e5;
+}
+
+.gd {
+  color: #00c301;
+}
+
+.go {
+  color: #4ded30;
+}
+
+.gl {
+  color: #95f985;
+}
+
+.rl {
+  color: #eb4b4b;
+}
+
+.rp {
+  color: red;
+}
+
+.ct {
+  color: #c1c6cc;
+}
+
+#PageTitle {
+  font-size: 38px;
+text-shadow: 5px 5px 5px black;
+  cursor: crosshair;
+  border: 0px solid #363332;
+}
+
+#PageTitle2 {
+  font-family: "xos4 Terminus";
+  transform-style: flat;
+  perspective: 3px;
+  perspective-origin: 10px 50%;
+  transform-origin: 13% 50% 0px;
+text-shadow: 5px 5px 5px black;
+  justify-content: center;
+  display: block;
+}
+
+#Nickname {
+  font-family: "csfont", "Source Code Pro";
+}
+
+#Item {
+  font-family: "csfont", "Source Code Pro";
+}
+
+#Nickname1 {
+  font-family: "csfont", "Source Code Pro";
+}
+
+#Paintcode1 {
+  font-family: "csfont", "Source Code Pro";
+}
+
+#Rarity1 {
+  font-family: "csfont", "Source Code Pro";
+}
+
+#FakeVac {
+  font-family: "csfont", "Terminus";
+}
+
+#ColorfulText {
+  font-family: "csfont", "Terminus";
+}
+
+#end {
+  font-family: "FantasqueSansMono Nerd Font Mono";
+}
+
+#Copy1 {
+  font-family: "sans-serif", "AstriumWep";
+}
+
+#name {
+  font-family: "FantasqueSansMono Nerd Font";
+}
+
+#item {
+  font-family: "FantasqueSansMono Nerd Font";
+}
+
+#paint {
+  font-family: "FantasqueSansMono Nerd Font";
+}
+
+#rarity {
+  font-family: "FantasqueSansMono Nerd Font";
+}
+
+#vacc {
+  font-family: "FantasqueSansMono Nerd Font Mono";
+}
+
+#textar {
+  font-family: "FantasqueSansMono Nerd Font";
+}
+
+#endtextinp {
+  font-family: "FantasqueSansMono Nerd Font Mono";
+}
+
+#colorpalette {
+  font-family: "FantasqueSansMono Nerd Font";
+}
+
+#Copy2 {
+  cursor: auto;
+}
+
+#Reset2 {
+  cursor: auto;
+}
+
+#Copy3 {
+  cursor: auto;
+}
+
+#Reset3 {
+  cursor: auto;
+}
+
+#Bar {
+  cursor: help;
+}
+
+#Reminder {
+  font-family: "Pomodoro", "xos4 Terminus";
+  font-weight: lighter;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-align: center;
+  direction: ltr;
+  word-spacing: -4px;
+  letter-spacing: 0px;
+  font-variant: small-caps;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.background {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  mask-image: radial-gradient(
+    white 0%,
+    white 30%,
+    transparent 80%,
+    transparent
+  );
+}
+
+.circle-container {
+  $particleNum: 200;
+  $particleColor: hsl(180, 100%, 80%);
+
+  position: absolute;
+  transform: translateY(-10vh);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    background-image: radial-gradient(
+      hsl(180, 100%, 80%),
+      hsl(180, 100%, 80%) 10%,
+      hsla(180, 100%, 80%, 0) 56%
+    );
+
+    animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+
+    @keyframes fade-frames {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.7;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes scale-frames {
+      0% {
+        transform: scale3d(0.4, 0.4, 1);
+      }
+
+      50% {
+        transform: scale3d(2.2, 2.2, 1);
+      }
+
+      100% {
+        transform: scale3d(0.4, 0.4, 1);
+      }
+    }
+  }
+
+  $particleBaseSize: 8;
+
+  
+  @for $i from 1 through $particleNum {
+    &:nth-child(#{$i}) {
+      $circleSize: random($particleBaseSize);
+      width: $circleSize + px;
+      height: $circleSize + px;
+
+      $startPositionY: random(10) + 100;
+      $framesName: "move-frames-" + $i;
+      $moveDuration: 28000 + random(9000) + ms;
+
+      animation-name: #{$framesName};
+      animation-duration: $moveDuration;
+      animation-delay: random(37000) + ms;
+
+      @keyframes #{$framesName} {
+        from {
+          transform: translate3d(
+            #{random(100) + vw},
+            #{$startPositionY + vh},
+            0
+          );
+        }
+
+        to {
+          transform: translate3d(
+            #{random(100) + vw},
+            #{- $startPositionY - random(30) + vh},
+            0
+          );
+        }
+      }
+
+      .circle {
+        animation-delay: random(4000) + ms;
+      }
+    }
+  }
+}
+
+.message {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: white;
+  font-family: "Josefin Slab", serif;
+  line-height: 27px;
+  font-size: 18px;
+  text-align: right;
+  pointer-events: none;
+  animation: message-frames 1.5s ease 5s forwards;
+  opacity: 0;
+  
+  @keyframes message-frames {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+    }
+  }
+}
+
